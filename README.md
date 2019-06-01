@@ -11,7 +11,7 @@ npm i bmp180-sensor
 ## Usage
 
 ```js
-const bmp180 = require('./bmp180')
+const bmp180 = require('bmp180-sensor')
 
  bmp180({
     address: 0x77,
