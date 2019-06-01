@@ -1,5 +1,5 @@
 {
-  "name": "nodebmp180",
+  "name": "bmp180-sensor",
   "version": "1.0.0",
   "description": "An Node.js module to interface a BMP085 and BMP180 temperature and pressure sensor with the Raspberry Pi",
   "main": "index.js",
