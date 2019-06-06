@@ -13,11 +13,16 @@ npm i bmp180-sensor
 ```js
 const bmp180 = require('bmp180-sensor')
 
- bmp180({
-    address: 0x77,
-    mode: 1,
-})
-.then(sensor => sensor.read())
-.then(data => console.log(data))
-.catch(err => console.error(err))
+async function readBmp180() {
+    const sensor = await bmp180({
+        address: 0x77,
+        mode: 1,
+    })
+
+    const data = await sensor.read()
+
+    console.log(data)
+
+    await sensor.close()
+}
 ```
