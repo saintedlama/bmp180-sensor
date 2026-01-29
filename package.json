@@ -11,7 +11,8 @@
     "nodemon": "^3.1.11"
   },
   "scripts": {
-    "start": "nodemon test.js"
+    "start": "nodemon test.js",
+    "test": "node --test"
   },
   "author": "Christoph Walcher <christoph.walcher@gmail.com>",
   "license": "ISC",
