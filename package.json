@@ -7,11 +7,8 @@
     "debug": "^4.4.3",
     "i2c-bus": "^5.2.3"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.11"
-  },
   "scripts": {
-    "start": "nodemon test.js"
+    "test": "node --test"
   },
   "author": "Christoph Walcher <christoph.walcher@gmail.com>",
   "license": "ISC",
