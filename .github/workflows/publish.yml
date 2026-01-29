@@ -3,7 +3,13 @@ on:
     branches:
       - master
 
-name: release-please
+permissions:
+  id-token: write # Required for OIDC
+  contents: write
+  issues: write
+  pull-requests: write
+
+name: publish
 jobs:
   release-please:
     runs-on: ubuntu-latest
