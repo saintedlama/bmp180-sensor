@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/saintedlama/bmp180-sensor/compare/v1.2.0...v1.3.0) (2026-01-29)
+
+
+### Features
+
+* add tests and remove dev dependencies  ([#17](https://github.com/saintedlama/bmp180-sensor/issues/17)) ([339515d](https://github.com/saintedlama/bmp180-sensor/commit/339515d821b0ffdcc3bc17447e4833c1b3fb6d37))
+
 ## [1.2.0](https://github.com/saintedlama/bmp180-sensor/compare/v1.1.0...v1.2.0) (2026-01-29)
 
 
