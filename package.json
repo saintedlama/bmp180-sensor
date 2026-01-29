@@ -4,12 +4,12 @@
   "description": "An Node.js module to interface a BMP085 and BMP180 temperature and pressure sensor with the Raspberry Pi",
   "main": "index.js",
   "dependencies": {
-    "debug": "^4.1.1",
-    "i2c-bus": "^4.0.9"
+    "debug": "^4.4.3",
+    "i2c-bus": "^5.2.3"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1",
-    "standard-version": "^6.0.1"
+    "nodemon": "^3.1.11",
+    "standard-version": "^9.5.0"
   },
   "scripts": {
     "start": "nodemon test.js",
